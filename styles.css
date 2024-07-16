@@ -1,4 +1,4 @@
-* {
+html {
     background-color: #e7c6ff;
 }
 body {
@@ -110,7 +110,9 @@ body {
 
 #phone {
     background-color: #5e548e;
+    padding: 5px;
     color: #f7aef8;
+
 }
 
 
@@ -119,7 +121,7 @@ body {
     background-repeat: no-repeat;
     border: 2px solid #5e548e;
     border-radius: 10px;
-    height: 150px;
+    height: 170px;
     min-width: 300px;
     margin-bottom: 20px;
     background-position: center;
@@ -127,15 +129,20 @@ body {
 }
 
 .java-vid-el:hover {
+    cursor: pointer;
+}
+
+/* .java-vid-el:hover {
     background: url("./images/gif-after.gif");
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
-}
+    cursor: pointer; */
+
 
 
 #tap-me {
     font-size: smaller;
     margin-top: 2px;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
 }
