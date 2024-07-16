@@ -108,10 +108,10 @@ body {
     margin-left: 15px;
 }
 
-#phone {
-    background-color: #5e548e;
+#phone  {
+    background-color: #5e548e !important;
     padding: 5px;
-    color: #f7aef8;
+    color: #f7aef8 !important;
 
 }
 
