@@ -91,6 +91,7 @@ body {
 #favorite-things >ul >li {
     flex-wrap: wrap;
     text-align: center;
+
 }
 
 #favorite-things > ul > li > span {
@@ -103,9 +104,38 @@ body {
     background-color: #5e548e;
     padding: 5px 10px;
     border-radius: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 #phone {
     background-color: #5e548e;
     color: #f7aef8;
+}
+
+
+.java-vid-el {
+    background: url("./images/gif-before.png");
+    background-repeat: no-repeat;
+    border: 2px solid #5e548e;
+    border-radius: 10px;
+    height: 150px;
+    min-width: 300px;
+    margin-bottom: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.java-vid-el:hover {
+    background: url("./images/gif-after.gif");
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+
+
+#tap-me {
+    font-size: smaller;
+    margin-top: 2px;
+    margin-bottom: 4px;
 }
