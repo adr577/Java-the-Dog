@@ -1,0 +1,111 @@
+* {
+    background-color: #e7c6ff;
+}
+body {
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-family: "Poppins", "sans-serif";
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.title {
+    background-color: #5e548e;
+    border-radius: 13px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+}
+
+.title-name {
+    background-color: #5e548e;
+    border-radius: 13px;
+    padding: 5px 10px;
+    margin-top: 5px;
+
+}
+.title-img {
+    width: 190px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 7px solid #5e548e;
+}
+
+#gender {
+    background-color: #5e548e;
+    padding: 5px 10px;
+    border-radius: 13px;
+}
+
+#date-born {
+    margin-top: 5px;;
+    background-color: #5e548e;
+    padding: 5px 10px;
+    border-radius: 13px;  
+}
+
+#favorite-things {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#favorite-things-title {
+    margin-top: 8px;
+    background-color: #5e548e;
+    padding: 5px 10px;
+    border-radius: 13px;
+}
+
+#favorite-things > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#favorite-things > ul > li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+
+
+#favorite-things > ul > li > img {
+    flex-shrink: 0;
+    margin-right: 4px;
+    height: 20px;
+    width: 20px;
+}
+
+#favorite-things >ul >li {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#favorite-things > ul > li > span {
+    display: block;
+    width: 100%;
+}
+
+#contact-info {
+    margin-top: 10px;
+    background-color: #5e548e;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+#phone {
+    background-color: #5e548e;
+    color: #f7aef8;
+}
