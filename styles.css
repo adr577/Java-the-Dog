@@ -108,7 +108,7 @@ body {
     margin-left: 15px;
 }
 
-#phone  {
+#phone a {
     background-color: #5e548e !important;
     padding: 5px;
     color: #f7aef8 !important;
